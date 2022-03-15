@@ -1,0 +1,38 @@
+.toast {
+	z-index: 1;
+	position: fixed;
+	margin-left: 30px;
+	bottom: 30px;
+	visibility: hidden;
+
+	min-width: 250px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	background-color: #031c28;
+	border-radius: 7px;
+	padding: 16px;
+
+	color: var(--white);
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.7rem;
+
+	-webkit-animation: fadein 0.5s;
+	animation: fadein 0.5s;
+}
+
+.show {
+	visibility: visible;
+	-webkit-animation: fadein 0.5s;
+	animation: fadein 0.5s;
+}
+
+.toast button{
+	border: none !important;
+	background-color: transparent !important;
+	color: #fff;
+	cursor: pointer;
+}

@@ -1,0 +1,73 @@
+:root {
+    --blue: #0a39d4;
+    --dark-blue: #072894;
+    --white: #fff;
+    --text-title: #0e2933;
+    --text: #000;
+    --gray: #808e94;
+    
+    font-size: 60%;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background: var(--background);
+    font-family: 'Roboto', sans-serif;
+    color: var(--text);
+}
+
+#background {
+    background-image: url("../assets/images/unsplash_m_7p45JfXQo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+input,
+select,
+button,
+textarea:focus {
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+a:visited,
+a:active,
+a:link,
+a:hover {
+    text-decoration: none;
+}
+
+input,
+select,
+button,
+textarea:focus {
+    outline: none;
+}
+
+
+/* Ajuda para o JS */
+
+.invisible {
+    display: none;
+}
+
+.invisible-important {
+    display: none !important;
+}

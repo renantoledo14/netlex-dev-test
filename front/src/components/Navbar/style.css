@@ -1,0 +1,40 @@
+nav {
+	height: 100%;
+	width: 190px;
+	background-color: transparent;
+}
+
+nav ul {
+	padding: 0.5rem;
+	margin-top: 1.7rem;
+}
+
+nav ul li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	padding: 1rem;
+	margin: 1rem .3rem;
+	
+	font-size: 1.82rem;
+	color: var(--white);
+
+	border-radius: 7px;
+	transition: background-color 0.4s ease;
+	cursor: pointer;
+}
+
+nav ul li:hover {
+	background-color: rgba(255, 255, 255, 0.151);
+}
+
+.active {
+	background-color: #fff;
+	color: var(--text-title);
+	transition: none;
+}
+
+.active:hover {
+	background-color: #fff;
+}

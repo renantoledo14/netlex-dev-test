@@ -1,0 +1,61 @@
+#background {
+	display: flex;
+	flex-direction: row;
+}
+
+.content {
+	width: 100%;
+	padding: 5rem;
+	background-color: var(--white);
+}
+
+.content h1 {
+	font-size: 4rem;
+	font-weight: bold;
+	color: var(--text-title);
+}
+
+.content form {
+	display: flex;
+	flex-direction: column;
+	padding: 5rem 200px 3rem 3rem;
+}
+
+.content form label {
+	color: var(--text);
+	font-weight: bold;
+	font-size: 1.85rem;
+	margin-bottom: 1.5rem;
+}
+
+.button-container {
+	width: 150px;
+	margin-top: 1.75rem;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.row .input-group{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.row .input-group + .input-group {
+	margin-left: 5rem;
+}
+
+.response {
+	color: var(--text);
+	font-size: 1.8rem;
+	margin-top: 2.5rem;
+}
+
+.response-gray {
+	color: var(--gray);
+	font-size: 1.8rem;
+}
